@@ -3,19 +3,19 @@ using namespace std;
 
 int main()
 {    
-    int divisor, dividend, quotient, remainder;
+    int v, d, q, r;
 
-    cout << "Enter dividend: ";
-    cin >> dividend;
+    cout << "Enter d: ";
+    cin >> d;
 
-    cout << "Enter divisor: ";
-    cin >> divisor;
+    cout << "Enter d: ";
+    cin >> v;
 
-    quotient = dividend / divisor;
-    remainder = dividend % divisor;
+    quotient = d / v;
+    remainder = d % v;
 
-    cout << "Quotient = " << quotient << endl;
-    cout << "Remainder = " << remainder;
+    cout << "Q = " << q << endl;
+    cout << "R = " << r;
 
     return 0;
 }
