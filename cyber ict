@@ -11,7 +11,7 @@ int main()
     cout << "Enter d: ";
     cin >> v;
 
-    quotient = d / v;
+    quotient = d /v;
     remainder = d % v;
 
     cout << "Q = " << q << endl;
